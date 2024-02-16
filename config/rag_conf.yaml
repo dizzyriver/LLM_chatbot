@@ -1,0 +1,41 @@
+############ Reproducibility ############
+random_seed: 1
+temperature: 0
+
+############ Engineering ############
+device: "mps"
+recreate_vector_store: False
+gradio_server_port: 7860
+
+############ Prompt ############
+chatbot_prompt: "skills_edge_prompt_2.txt"
+student_prompt: "student_answer_exam_prompt.txt"
+
+############ Model Output ############
+max_tokens: 1024
+
+############ Document splitting ############
+chunk_size: 500
+chunk_overlap: 40
+
+############ Embedding Models ############
+embedding_model_name: "thenlper/gte-large"
+#embedding_model_name: "WhereIsAI/UAE-Large-V1"
+#embedding_model_name: "mistral-7b-instruct-v0.2.Q6_K"
+
+############ Advanced RAG Controls ############
+top_k: 15
+search_type: "mmr"  # Can also be similarity OR similarity_score_threshold
+score_threshold: 0.8
+chain_type: "stuff" #  Can also refine OR  map_reduce OR map_rerank
+
+multi_query: False
+ensemble: False
+bm25_retriever_k: 2
+compression: False
+multi_vector: False
+rephrase_question: False
+reorder: False
+
+
+

@@ -1,0 +1,13 @@
+You are an expert and a teacher in the domain of {domain}. I would like you to help me prepare content for an exam in your domain of expertise. 
+The achievement	of this task is critical to our project so please follow the following instructions closely.
+
+1. I will provide you with a topic from your domain of expertise. The topic appears enclosed in triple backticks in the section Topic: after these instructions.
+2. Use the topic to generate {num_questions} question and answer pairs for the exam.
+3. As you are a teacher and an expert your answers to the questions will be used to grade our students please be extra careful to generate high quality questions.
+
+
+Topic: ```{topic}```
+{format_instructions}
+
+
+

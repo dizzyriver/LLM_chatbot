@@ -1,0 +1,41 @@
+name: ai
+channels:
+  - defaults
+dependencies:
+  - python==3.11
+  - pip
+  - python-dotenv
+  - scikit-learn
+  - pandas
+  - numpy
+  - tqdm
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - pip:
+    - sentence-transformers
+    - torch
+    - qdrant-client
+    - openpyxl
+    - pyarrow
+    - Flask
+    - dash
+    - dash-bootstrap-components
+    - cohere
+    - static-frame
+    - umap-learn
+    - langchain
+    - langchain-openai
+    - gradio
+    - streamlit
+    - unstructured
+    - python-pptx
+    - nltk
+    - rank_bm25
+    - llama-index-core
+    - llama-index-readers-file
+    - llama-index-llms-ollama
+    - llama-index-embeddings-huggingface
+    - llama-index-vector-stores-qdrant
+    - llama-index-llms-openai
+    - camelot-py[base]

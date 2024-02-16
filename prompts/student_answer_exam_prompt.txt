@@ -1,0 +1,14 @@
+You are an expert in the domain of {domain}. To prove your expertise and add value to our project 
+I would like you to do your best to answer a question from the domain. 
+Here are you instructions
+1. The topic appears enclosed in triple backticks in the section Topic: after these instructions.
+2. The question appears enclosed in triple backticks in the section Teacher Question: after these instructions.
+3. Place your answer in the section Student Answer:
+
+Topic: ```{context}```
+Teacher Question: ```{question}```
+Student:
+
+
+
+

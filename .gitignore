@@ -1,0 +1,166 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyc
+
+# C extensions
+*.so
+
+elwiki-latest-pages-articles-multistream.xml
+
+skills_edge_prompt_1.txt
+skills_edge_prompt_2.txt
+
+*-workspace
+
+documents
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# images
+*.png
+
+# pickled objects
+*.pkl
+models/*.pkl
+models/*.model*
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+*.pdf
+*.pptx
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# DotEnv configuration
+.env
+
+# Database
+*.db
+*.rdb
+
+# flat files
+*.csv
+*.parquet
+tests/**/*.yaml
+test_files/**/*.yaml
+data/interim/**/*.yaml
+tests/**/*.csv
+test_files/**/*.csv
+test_files/**/*.parquet
+test_files/**/*.yml
+*.xlsx
+*.xls
+*.pq
+
+# compressed files
+*.zip
+
+# joblib models
+*.joblib
+
+# Pycharm
+.idea
+venv
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# exclude data from source control by default
+api_conf/
+/models/*
+/models/**/*.dict
+/models/**/*.model
+/models/**/*.index
+/models/**/*.h5
+/models/**/*.pkl
+/models/**/*.json
+
+# Spyder project files
+/.spyproject/
+
+# pretrained word vectors
+/references/glove*
+
+**/dask-worker-space/*
+data/*
+
+# html documentation output of pdoc3 ignored
+html/*
+db_data/*
+.DS_Store
+alembic.ini
+.vscode/*
+!.vscode/launch.json.example
+!.vscode/settings.json.example
+
+.env.docker
+.env.docker_bak
+*.log.*
+
+# Ignoring the VM folder 
+kava_skillpricer/
+
+# Temporary open files 
+.~lock.*
+
+# Configuration files 
+config.yaml
+
+# Pipeline output 
+data_demand_skill_pipeline_output/
+
+# Output of google translation 
+translated_titles/
+
+# emsi_API_output
+
+qdrant_storage/
+qdrant_storage;C/
+
+__MACOSX/*
