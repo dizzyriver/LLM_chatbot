@@ -1,6 +1,6 @@
 # LLM chatbot
 
-LLM chatbot using Retrieval Augmented Generation with [Langchain](https://www.langchain.com/), [Gradio](https://www.gradio.app/) and [Qrant](https://qdrant.tech/).
+LLM chatbot using Retrieval Augmented Generation with [Langchain](https://www.langchain.com/), [Gradio](https://www.gradio.app/) and [Qdrant](https://qdrant.tech/).
 
  * Install Qdrant. Working with the [Docker installation](https://qdrant.tech/documentation/quick-start/) is straightforward.
  * Create a conda environment with `conda env create -f ai_env.yml`
